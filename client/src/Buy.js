@@ -1,10 +1,12 @@
 import React from 'react'
 
-const Buy = () => {
+const Buy = ({ isLoading, userId }) => {
     return (
+      <div className='bg-danger flex-grow-1'>
         <h1>
-           Buy
+          Buy
         </h1>
+      </div>
     )
 }
 
